@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "23873858"))
 API_HASH = os.environ.get("API_HASH", "bfc7ff263795b22bb7065abe95bed3a2")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002157136929"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002155887702"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7277357700"))
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/sux_Preview/15")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002181109962"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002231982465"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 START_MSG = os.environ.get("START_MESSAGE", "Hii.  I am Alive.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7277357700, 7208538115").split()):
+    for x in (os.environ.get("ADMINS", "7208538115, 6841175650").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
