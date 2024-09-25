@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7386108148:AAEhQiKi2g3-L8yDAya3QfJ5HjYpc_umuwc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7660387680:AAEuK5Rqha1pQoYG7tjxT5X6Q4yVA9o_9qc")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23873858"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "23873858"))
 API_HASH = os.environ.get("API_HASH", "bfc7ff263795b22bb7065abe95bed3a2")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002212096027"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002281149124"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7277357700"))
@@ -31,23 +31,23 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sunitverma080:mg0Pd4Pdf0UD0Ou8@merabot1.dcduprk.mongodb.net/?retryWrites=true&w=majority&appName=merabot1")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "2efe16124b84675e41ceeb698e82723e47707a5f")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "runurl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "9371ec55eec4f4649cb14a265782f50ecad7323a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/sux_Preview/15")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002162038550"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002260584324"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hii.  I am Alive.")
+START_MSG = os.environ.get("START_MESSAGE", "Hii.  HUM AMAR HAI BSDKE.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7208538115").split()):
+    for x in (os.environ.get("ADMINS", "6885577739").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
